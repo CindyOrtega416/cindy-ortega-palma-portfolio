@@ -4,7 +4,6 @@ import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from '../assets/img/header-img.svg'
 import 'animate.css';
 import TrackVisibility from "react-on-screen";
-import {isVisible} from "@testing-library/user-event/dist/utils";
 
 export function Banner() {
     const [loopNum, setLoopNum] = useState(0) // loop number starts from he 0 word (for typing letters)
@@ -20,6 +19,7 @@ export function Banner() {
         }, delta)
 
         return () => { clearInterval(ticker)}
+        // eslint-disable-next-line
     }, [text])
 
     const tick = () => {

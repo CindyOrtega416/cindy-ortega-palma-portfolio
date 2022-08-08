@@ -43,23 +43,23 @@ export function Skills() {
                                 <p>During my academic journey I have learned programming languages such as JavaScript, Python and C++.<br></br> Having specialized in Front-End Development I work with frameworks such as React JS and Angular; <br></br>Baas such as Firebase; And Relational Databases such as MySQL. <br></br> With this I have the ability to create a FullStack applications.</p>
                              <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={react} alt="Image" />
+                                    <img src={react} alt="React" />
                                     <h5>React JS</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={firebase} alt="Image" />
+                                    <img src={firebase} alt="Firebase" />
                                     <h5>Firebase</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={angular} alt="Image" />
+                                    <img src={angular} alt="Angular" />
                                     <h5>Angular</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={javascript} alt="Image" />
+                                    <img src={javascript} alt="JavaScript" />
                                     <h5>JavaScript</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={github} alt="Image" />
+                                    <img src={github} alt="Github" />
                                     <h5>Github</h5>
                                 </div>
                             </Carousel>
@@ -67,7 +67,7 @@ export function Skills() {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-left" src={colorSharp} />
+            <img alt="" className="background-image-left" src={colorSharp} />
         </section>
     )
 }
