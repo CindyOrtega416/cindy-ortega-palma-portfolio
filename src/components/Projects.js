@@ -16,31 +16,31 @@ export function Projects() {
     const projects = [
         {
             title: "Memory Card Game",
-            description: "Attention & Fast Thinking Game",
+            description: "A game focus con Attention & Fast Thinking",
             imgUrl: projImg1,
             url: "https://ucc-memorygame.herokuapp.com/",
         },
         {
             title: "Social Media App",
-            description: "Like & Comment Images. Follow and Unfollow Users",
+            description: "Full Stack social media app builded with React JS, Tailwind CSS and Firebase",
             imgUrl: projImg2,
             url: "https://github.com/CindyOrtega416/Encontrarte",
         },
         {
             title: "PetFinder",
-            description: "Login And Post a Report. Read Other Posted Reports",
+            description: "Full Stack application for reporting a lost, found or up-for-adoption pet",
             imgUrl: projImg3,
             url: "https://github.com/CindyOrtega416/react-blog",
         },
         {
             title: "Municipal Report",
-            description: "Report A Municipal Flaw on Your Neighbourhood Via Whatsapp",
+            description: "Full Stack application to report a neighbourhood flaw via Whatsapp",
             imgUrl: projImg4,
             url: "https://github.com/CindyOrtega416/Asegurita",
         },
         {
             title: "Ecommerce Startup",
-            description: "Upload Products Up For Sale",
+            description: "Full Stack E-Commerce application using React JS and Firebase.",
             imgUrl: projImg5,
         },
 
