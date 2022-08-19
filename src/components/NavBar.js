@@ -57,7 +57,7 @@ export function NavBar() {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="https://www.linkedin.com/in/cindy-micaela-ortega-palma-6a249a171/"><img src={navIcon1} alt="" /></a>
+                            <a href="https://www.linkedin.com/in/cindyortegapalma"><img src={navIcon1} alt="" /></a>
                             <a href="https://github.com/CindyOrtega416"><img src={navIcon2} alt="" /></a>
                             <a href="https://t.me/cindyortega"><img src={navIcon3} alt="" /></a>
                         </div>
